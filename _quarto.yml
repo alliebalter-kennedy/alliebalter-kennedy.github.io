@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Tufts Cosmo Lab"
+  title: "Allie Balter-Kennedy"
   navbar:
     left:
       - href: index.qmd
