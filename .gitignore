@@ -1,0 +1,5 @@
+/.quarto/
+/_site/
+/people_files/headshots/headshot_maker.pptx
+**/*.quarto_ipynb
+

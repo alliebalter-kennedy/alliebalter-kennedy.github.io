@@ -1,0 +1,16 @@
+---
+title: People
+listing:
+    - id: pi-list
+      type: grid
+      contents: people_files/*.qmd
+      include:
+        role: "PI"
+      fields: [title, image]
+---
+
+### Principal Investigator
+:::{#pi-list}
+:::
+
+

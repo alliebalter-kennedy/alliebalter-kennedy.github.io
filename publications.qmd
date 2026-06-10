@@ -1,0 +1,10 @@
+---
+title: Publications
+bibliography: publications_files/publications.bib
+csl: publications_files/apa-cv.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::

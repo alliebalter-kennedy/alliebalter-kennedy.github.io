@@ -1,0 +1,40 @@
+---
+category: People
+title: "Allie Balter-Kennedy"
+role: "PI"
+image: headshots/ABK_headshot.jpg
+about:
+    id: hero-heading
+    template: solana
+    image-shape: round 
+    image-width: 18em
+    links:
+        - icon: "google"
+          text: "Google Scholar"
+          href: https://scholar.google.com/citations?user=zZV34mEAAAAJ&hl=en
+        - icon: "github"
+          text: "Github"
+          href: https://github.com/alliebalter-kennedy
+---
+
+:::{#hero-heading}
+
+Assistant Professor <br>
+Department of Earth & Climate Sciences <br>
+Tufts University <br>
+
+**Office:** 102A Bromfield-Pearson Building <br>
+**Lab:** 131 Bacon Hall <br>
+**Email:** [allie.balter_kennedy@tufts.edu](mailto:allie.balter_kennedy@tufts.edu)
+
+:::
+
+Allie is a glacial geologist and geochemist who aims to understand how ice sheets and landscapes respond when climate warms.
+
+## Experience & Education
+Tufts University | Assistant Professor | Sep 2025 – present <br>
+Lamont-Doherty Earth Observatory | Postdoctoral Scientist | May 2023 - Aug 2025 <br>
+
+PhD | Earth & Environmental Sciences | Columbia University | 2023 <br>
+MS | Earth & Climate Sciences | The University of Maine | 2018 <br>
+BS | Geology | Bates College | 2014 <br>
