@@ -10,17 +10,19 @@ about:
 
 The Tufts Cosmo Lab aims to understand how glaciers and landscapes respond to climate change on timescales of hundreds to millions of years. Our approach is "full-stack", combining field observations, geochemistry, and modeling. In the lab, we specialize in cosmogenic-nuclide geochemistry^[Cosmogenic nuclides are rare isotopes that are created when high-energy particles, known as cosmic rays, interact with atomic nuclei. Some cosmic rays reach the Earth's surface where cosmogenic nuclides build up in rocks over time. The concentration of cosmogenic nuclides like ^10^Be and ^26^Al (among others) in minerals is used to quantify surface processes like erosion and date geologic events like glacial retreat.] - we get especially excited about expanding the cosmo toolkit through the development of new laboratory methods, applications, and computational tools. 
 
-The group is supervised by [Dr. Allie Balter-Kennedy](people_files/AllieBalter-Kennedy.qmd) and is growing to include postdocs, postbacs, and undergraduates. We are uniquely positioned to as members of the undergraduate-only [Department of Earth & Climate Sciences](https://as.tufts.edu/ecs/), which is situated within a highly active R1 research community at Tufts University. In our work, we value collaboration & creativity, emphasize undergraduate research involvement, and support postdocs in gaining leadership & mentoring experience.
+The group is supervised by [Dr. Allie Balter-Kennedy](people_files/AllieBalter-Kennedy.qmd) and is growing to include postdocs, postbacs, and undergraduates. We are uniquely positioned as members of the undergraduate-only [Department of Earth & Climate Sciences](https://as.tufts.edu/ecs/), which is situated within a highly active R1 research community at Tufts University. In our work, we value collaboration & creativity, emphasize undergraduate research involvement, and support postdocs in gaining leadership & mentoring experience.
 
 :::
 
 ## Opportunities
 
 ### Postdocs
-**June 2026:** We are actively seeking a postdoc to join the group! This page will be updated imminently with an application link - stay tuned!
+**We are actively hiring a Postdoctoral Scholar!** You can find details about the position and apply [here](https://jobs.tufts.edu/jobs/23283?lang=en-us). Broad topics for potential projects include glacier reconstructions, integrating paleoglacier model outputs and observational data, and geochemical methods development. Applicants with expertise in cosmogenic-nuclide geochemistry, glacial geomorphology, and/or glacier modeling are particularly encouraged to apply.
+
+Start date is flexible but will ideally begin on or before January 1, 2027.  Feel free to contact [Allie](mailto:allie.balter_kennedy@tufts.edu) with any questions!
 
 ### Postbacs
-Are you a recent college graduate with prior experience in an Earth Science or Chemistry lab? Are you looking to work in a lab setting in the Greater Boston Area? Please email [Allie](mailto:allie.balter_kennedy@tufts.edu) to inquire about upcoming opportunities and include your resume as an attachment.  
+Are you a recent college graduate with prior experience in an Earth Science or Chemistry lab? Are you looking for work in a lab setting in the Greater Boston Area? Please email [Allie](mailto:allie.balter_kennedy@tufts.edu) to inquire about upcoming opportunities and include your resume as an attachment.  
 
 ### Undergraduate Students
 Our undergraduate research positions are currently full. We will update this page when new positions open. 
