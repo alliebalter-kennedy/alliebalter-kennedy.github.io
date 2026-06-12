@@ -1,10 +1,9 @@
 ---
 title: Publications
-bibliography: publications_files/publications.bib
-csl: publications_files/apa-cv.csl
-nocite: |
-  @*
+listing:
+  template: publications_files/publications.ejs.md
+  contents: publications_files/publications_12Jun26.yml
 ---
 
-::: {#refs}
+::: {#publications}
 :::

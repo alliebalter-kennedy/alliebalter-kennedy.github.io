@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Allie Balter-Kennedy</title>
+<title>publications.ejs – Allie Balter-Kennedy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -116,53 +117,53 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Allie Balter-Kennedy</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://scholar.google.com/citations?user=zZV34mEAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-    <i class="bi bi-google"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://github.com/alliebalter-kennedy" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>Assistant Professor <br> Department of Earth &amp; Climate Sciences <br> Tufts University <br></p>
-<p><strong>Office:</strong> 102A Bromfield-Pearson Building <br> <strong>Lab:</strong> 131 Bacon Hall <br> <strong>Email:</strong> <a href="mailto:allie.balter_kennedy@tufts.edu">allie.balter_kennedy@tufts.edu</a></p>
-</div></div>
-    </div>
-    <img src="headshots/ABK_headshot.jpg" class="about-image
-  round " style="height: 18em; width: 18em;">
-  </div>
-</div>
+<div class="publications-list">
+&lt;%
+  // Group items by year
+  const byYear = {};
+  for (const item of items) {
+    const yr = item.year;
+    if (!byYear[yr]) byYear[yr] = [];
+    byYear[yr].push(item);
+  }
+  // Get years in descending order
+  const years = Object.keys(byYear).sort((a, b) =&gt; b - a);
+%&gt;
 
-<p>Allie is a glacial geologist and geochemist who aims to understand how ice sheets and landscapes respond when climate warms.</p>
-<section id="experience-education" class="level2">
-<h2 data-anchor-id="experience-education">Experience &amp; Education</h2>
-<p>Tufts University | Assistant Professor | Sep 2025 – present <br> Lamont-Doherty Earth Observatory | Postdoctoral Scientist | May 2023 - Aug 2025 <br></p>
-<p>PhD | Earth &amp; Environmental Sciences | Columbia University | 2023 <br> MS | Earth &amp; Climate Sciences | The University of Maine | 2018 <br> BS | Geology | Bates College | 2014 <br></p>
+&lt;% for (const year of years) { %&gt;
+<section id="year" class="level3">
+<h3 class="anchored" data-anchor-id="year">&lt;%= year %&gt;</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+  &lt;% for (const item of byYear[year]) { %&gt;
+    <li style="margin-bottom: 1em; padding-left: 2em; text-indent: -2em;">
+      [&lt;%= item.number %&gt;] &lt;%= item.authors %&gt;, &lt;%= item.title %&gt;. <em>&lt;%= item.journal %&gt;</em>&lt;% if (item.volume) { %&gt;, &lt;%= item.volume %&gt;&lt;% } %&gt;&lt;% if (item.pages) { %&gt;, &lt;%= item.pages %&gt;&lt;% } %&gt;&lt;% if (item.note) { %&gt; (&lt;%= item.note %&gt;)&lt;% } %&gt;.
+      &lt;% if (item.doi) { %&gt;<a href="https://doi.org/<%- item.doi %>">[DOI]</a>&lt;% } %&gt;
+      &lt;% if (item.pdf) { %&gt;<a href="<%- item.pdf %>">[PDF]</a>&lt;% } %&gt;
+    </li>
+  &lt;% } %&gt;
+  </ul>
+&lt;% } %&gt;
+
+</section></div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

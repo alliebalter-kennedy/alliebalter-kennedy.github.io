@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - people.qmd
+      - publications.qmd
 
 format:
   html:
@@ -16,7 +17,7 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 
 
